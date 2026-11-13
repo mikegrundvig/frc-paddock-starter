@@ -14,8 +14,8 @@ images:
     steps:
       # Spotter's agent, the robot's way in (github.com/mikegrundvig/frc-spotter's releases list each
       # file's SHA-256), and the robot controller it takes the robot's pushes and actions from.
-      - package: https://github.com/mikegrundvig/frc-spotter/releases/download/v0.4.1/frc-spotter_0.4.1_arm64.deb
-        sha256: 17494387fe0a49626a8428661258f08a12854b774ffa80abcdc126cd3e7897e5
+      - package: https://github.com/mikegrundvig/frc-spotter/releases/download/v0.5.1/frc-spotter_0.5.1_arm64.deb
+        sha256: 62118e683682585b0309231088adb55b3eb740517fbd47431121f7ee91116ade
       - file: files/visor/agent.json
         to: /etc/frc-spotter/agent.json
         mode: "0644"

@@ -23,7 +23,7 @@ jobs:
       github.repository != 'mikegrundvig/frc-paddock-starter' ||
       (github.event_name == 'workflow_dispatch' && inputs.release == '')
     # Paddock pinned to an exact version, so your images change only when this repository does.
-    uses: mikegrundvig/frc-paddock/.github/workflows/build-images.yml@v1.0.0
+    uses: mikegrundvig/frc-paddock/.github/workflows/build-images.yml@v1.1.0
     permissions:
       contents: write
     with:
